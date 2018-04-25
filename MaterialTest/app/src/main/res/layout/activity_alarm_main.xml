@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="deskclock.ui.MainAlarmActivity"
+    android:background="@color/bg">
+
+    <deskclock.widget.MyClock
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"/>
+    <ImageButton
+        android:id="@+id/button_alarm"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/button_margin"
+        android:src="@drawable/alarm"
+        android:scaleType="fitCenter"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        />
+</RelativeLayout>
